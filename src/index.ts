@@ -32,6 +32,7 @@ import {
   getConfigVolarEnable,
   getDisabledFeatures,
 } from './config';
+import { timeOut } from './utils';
 
 let serverModule: string;
 
@@ -56,6 +57,8 @@ export async function activate(context: ExtensionContext): Promise<void> {
     const tsService = services.getService('tsserver');
     if (tsService) await tsService.start();
   }
+
+  await timeOut(600);
 
   return commonActivate(context, (id, name, documentSelector, initOptions, port, outputChannel) => {
     class _LanguageClient extends LanguageClient {

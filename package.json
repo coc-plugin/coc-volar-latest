@@ -1,8 +1,8 @@
 {
-  "name": "@yaegassy/coc-volar",
-  "version": "0.37.4",
+  "name": "coc-volar-latest",
+  "version": "0.0.1",
   "description": "Volar (Fast Vue Language Support) extension for coc.nvim",
-  "author": "yaegassy <yosstools@gmail.com>",
+  "author": "chuyanlong <a1008611abcd@126.com>",
   "license": "MIT",
   "main": "lib/index.js",
   "keywords": [
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yaegassy/coc-volar"
+    "url": "https://github.com/coc-plugin/coc-volar-latest"
   },
   "publishConfig": {
     "access": "public"
