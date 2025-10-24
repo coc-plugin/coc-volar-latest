@@ -1,6 +1,6 @@
 {
   "name": "coc-volar-latest",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Volar (Fast Vue Language Support) extension for coc.nvim",
   "author": "chuyanlong <a1008611abcd@126.com>",
   "license": "MIT",
